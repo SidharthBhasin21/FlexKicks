@@ -1,3 +1,4 @@
+import Nav from "./Components/Nav";
 import {
   Hero,
   CustomerReviews,
@@ -12,8 +13,7 @@ import {
 const App = () => {
   return (
     <main className="relative">
-      {" "}
-      nav
+      <Nav />
       <section className="xl:padding-1 wide:padding-r padding-b">
         <Hero />
       </section>
@@ -31,7 +31,7 @@ const App = () => {
       </section>
       <section className="padding">
         {" "}
-        <specialOffer />
+        <SpecialOffer />
       </section>
       <section className="padding bg-pale-blue">
         {" "}
@@ -39,7 +39,7 @@ const App = () => {
       </section>
       <section className="padding-x sm:py-32 py-16 w-full">
         {" "}
-        <Subscribes />
+        <Subscribe />
       </section>
       <section className="padding bg-black padding-x padding-t pb-8">
         {" "}
